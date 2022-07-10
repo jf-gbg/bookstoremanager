@@ -1,0 +1,3 @@
+/Users/Dev/OneDrive/Documents/Programming/C++/bookstoremanager/cmake-build-debug/CMakeFiles/bookstoremanager.dir
+/Users/Dev/OneDrive/Documents/Programming/C++/bookstoremanager/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Dev/OneDrive/Documents/Programming/C++/bookstoremanager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
