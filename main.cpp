@@ -1,12 +1,16 @@
 #include <iostream>
 
 int main() {
-    int sum = 0;
-    int val = 10;
+    std::cout << "Please enter two integers." << std::endl;
 
-    while(val >= 1) {
-        std::cout << val << std::endl;
-        --val;
+    int num1 { 0 };
+    int num2 { 0 };
+    std::cin >> num1 >> num2;
+
+    int printNum { num1 };
+    while(printNum <= num2) {
+        std::cout << printNum << std::endl;
+        ++printNum;
     }
     //std::cout << "Sum of 50 to 100 inclusive is " << sum << std::endl;
     return 0;
