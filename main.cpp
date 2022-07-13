@@ -1,17 +1,13 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Please enter two integers." << std::endl;
+    std::cout << "Enter numbers seperated by a space. "
+                 "Enter 'd' when finished" << std::endl;
+    int sum{ 0 };
 
-    int num1 { 0 };
-    int num2 { 0 };
-    std::cin >> num1 >> num2;
+    for(int value = 0; std::cin >> value;)
+        sum += value;
 
-    int printNum { num1 };
-    while(printNum <= num2) {
-        std::cout << printNum << std::endl;
-        ++printNum;
-    }
-    //std::cout << "Sum of 50 to 100 inclusive is " << sum << std::endl;
+    std::cout << "Sum is: " << sum;
     return 0;
 }
