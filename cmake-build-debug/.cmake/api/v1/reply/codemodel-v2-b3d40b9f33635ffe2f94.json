@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "bookstoremanager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bookstoremanager-Debug-e1903f87d6100283ce00.json",
+					"jsonFile" : "target-bookstoremanager-Debug-5f47f1fc785d5da31527.json",
 					"name" : "bookstoremanager",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/Dev/OneDrive/Documents/Programming/C++/bookstoremanager/cmake-build-debug",
-		"source" : "/Users/Dev/OneDrive/Documents/Programming/C++/bookstoremanager"
+		"build" : "C:/Users/malmm/OneDrive/Documents/Programming/C++/bookstoremanager/cmake-build-debug",
+		"source" : "C:/Users/malmm/OneDrive/Documents/Programming/C++/bookstoremanager"
 	},
 	"version" : 
 	{

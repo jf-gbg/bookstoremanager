@@ -1,31 +1,17 @@
 #include <iostream>
+#include "Sales_item.h"
 
 int main() {
-    std::cout << "Enter 2 numbers seperated by space." << std::endl;
+    Sales_item book1;
+    Sales_item book2;
 
-    int userNum1 = 0;
-    int userNum2 = 0;
-    std::cin >> userNum1 >> userNum2;
+    std::cin >> book1 >> book2;
 
-    int least = 0;
-    int greatest = 0;
-
-    if(userNum1 < userNum2) {
-        least = userNum1;
-        greatest = userNum2;
+    if(book1.isbn() == book2.isbn()) {
+        std::cout << book1 + book2 << std::endl;
+        return 0;
     } else {
-        least = userNum2;
-        greatest = userNum1;
+        std::cerr << "Data must refer to same ISBN" << std::endl;
+        return -1;
     }
-
-    std::cout << "Sum of numbers between " << least << " to " << greatest << " inclusive is..." << std::endl;
-
-    int sum = 0;
-    while(least <= greatest) {
-        sum += least;
-        ++least;
-    }
-
-    std::cout << sum << std::endl;
-    return 0;
 }

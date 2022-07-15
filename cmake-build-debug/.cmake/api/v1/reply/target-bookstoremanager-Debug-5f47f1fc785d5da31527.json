@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bookstoremanager"
+			"path" : "bookstoremanager.exe"
+		},
+		{
+			"path" : "bookstoremanager.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0"
+					"fragment" : "-g"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -68,12 +71,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "bookstoremanager",
-	"nameOnDisk" : "bookstoremanager",
+	"nameOnDisk" : "bookstoremanager.exe",
 	"paths" : 
 	{
 		"build" : ".",
